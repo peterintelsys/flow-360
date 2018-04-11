@@ -1,0 +1,44 @@
+.card {
+	margin-bottom:15px;
+	background-color: transparent;
+	border: 1px solid $font-color;
+	border-radius: 8px;
+	padding:12px 20px;
+	padding-bottom: 20px;
+	width:100%;
+	font-size: 1.4rem;
+}
+
+.card-header {
+	font-size: 1.6rem;
+	padding:12px 0;
+	font-weight: 500;
+	letter-spacing: .4rem;
+}
+
+.card-group {
+	margin-bottom: 15px;
+}
+
+.card-item {
+	padding-right: 24px;
+}
+
+.messages {
+	padding:12px 0;
+}
+
+.messages a {
+	text-decoration: none;
+}
+
+.messages-item {
+	padding-bottom: 5px;
+}
+
+.card .alert-danger {
+	background-color: $alert-danger;
+	font-weight: 500;
+	padding-bottom: 12px;
+}
+

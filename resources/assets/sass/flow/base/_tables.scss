@@ -1,0 +1,37 @@
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+
+th {
+	font-size: $label-font-size;
+	font-weight: $label-font-weight;
+	color: darken($font-color, 40%);
+}
+
+td{
+	font-size: 1.4rem;
+}
+
+td,
+th {
+  border-bottom: 0.1rem solid #e1e1e1;
+  padding: 1.0rem 1.5rem;
+  text-align: left;
+}
+
+td a,
+th a {
+  text-decoration: none;
+}
+
+td:first-child,
+th:first-child {
+  padding-left: 0;
+}
+
+td:last-child,
+th:last-child {
+  padding-right: 0;
+}

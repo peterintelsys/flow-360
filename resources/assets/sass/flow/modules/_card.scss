@@ -1,0 +1,45 @@
+.card {
+	border: 1px solid $color-secondary;
+	border-radius: 8px;
+	padding:20px;
+	width:100%;
+	background-color: transparent;
+	font-size: 1.4rem;
+	margin-bottom: 15px;
+}
+
+.card-top {
+	padding-bottom: 12px;
+	font-size: 1.4rem;
+	font-weight:500;
+	letter-spacing: .2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-top a {
+	font-size: 3.0rem;
+	color:red;
+	text-decoration: none;
+	padding-left:20px;
+}
+
+.card-bottom {
+	padding-top: 20px;
+}
+
+.card-item {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+}
+
+.item {
+	padding-right:16px;
+}
+
+.item:last-child{
+	padding-right: 0;
+}
+

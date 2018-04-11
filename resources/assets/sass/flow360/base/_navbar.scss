@@ -1,0 +1,85 @@
+.navbar-one {
+	padding:15px 0rem;
+	border-bottom: 1px solid #999999;
+	font-size: 24px;
+}
+
+.navbar-one a {
+	text-decoration: none;
+	color:$font-color;
+}
+
+.navbar-two {
+	margin-bottom: 20px;
+}
+
+.navbar-two a {
+	letter-spacing: .1rem;
+	color:$nav-color;
+}
+
+.navbar-two a.active {
+	
+	color:$font-color;
+}
+
+.dropdown {
+	position: relative;
+}
+
+a.dropbtn {
+	font-size: 3.0rem !important;
+	text-decoration: none;
+	color:$nav-color;
+	padding-left: 20px;
+	background-color: transparent !important;
+}
+
+a:hover.dropbtn {
+	background-color: transparent !important;
+}
+
+a.dropbtn-big {
+	font-size: 2.4rem !important;
+	text-decoration: none;
+	color:$font-color;
+	padding-left: 20px;
+	background-color: transparent !important;
+}
+
+a:hover.dropbtn-big {
+	background-color: transparent !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $drop-background-color;
+    border:1px solid $font-color;
+    border-radius: 8px;
+    min-width: 160px;
+    overflow: auto;
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: $drop-color !important;
+    font-size: 1.3rem !important;
+    letter-spacing: .1rem !important;
+    font-weight: 300 !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: $drop-background-color-hover !important;
+}
+
+@media only screen and (min-width: 750px) {
+
+	.navbar-one{
+		padding:15px 2.0rem;
+	}
+}

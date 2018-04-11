@@ -1,0 +1,63 @@
+// Divider
+
+hr {
+	border: 0;
+	border-top: .1rem solid $color-tertiary;
+	margin: 1.0rem 0;
+}
+
+.float-right {
+  float: right;
+}
+
+code {
+  background: #f4f5f6;
+  border-radius: .4rem;
+  font-size: 86%;
+  margin: 0 .2rem;
+  padding: .2rem .5rem;
+  white-space: nowrap;
+}
+
+.show{
+  display:block;
+}
+
+.hide {
+  display: none;
+}
+
+ul.breadcrumb {
+    padding-top:10px;
+    list-style: none;
+    background-color: transparent;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 1.3rem;
+}
+
+ul.breadcrumb li:first-child {
+    padding:0;
+}
+
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: $color-tertiary;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: $font-color;
+    text-decoration: none;
+}
+
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+<?php
+
+return [
+
+'home' => 'Home',
+'module' => 'Modul',
+'modules' => 'Modules',
+'sales' => 'Sales',
+'myaccount' => 'My account...',
+'logout' => 'Logout',
+'information' => 'Information',
+'messages' => 'Messages',
+'todo' => 'To do',
+'new' => 'New',
+'today' => 'Today',
+'purchase' => 'Purchase',
+'stock' => 'Stock',
+'finance' => 'Finance',
+'admin' => 'Admin',
+'createnewcustomer' => 'Create new customer',
+'orgnbr' => 'Org. nbr.',
+'name' => 'Name',
+'phone' => 'Phone',
+'email' => 'Email',
+'address' => 'Address',
+'postcode' => 'Postcode',
+'city' => 'City',
+'country' => 'Country',
+'customer' => 'Customer',
+'edit' => 'Edit',
+'ledger' => 'Ledger',
+'contacts' => 'Contacts',
+'orders' => 'Orders',
+'results' => 'Results',
+
+];

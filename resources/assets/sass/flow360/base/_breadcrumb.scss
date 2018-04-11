@@ -1,0 +1,9 @@
+.breadcrumb ul {
+	padding: 8px 0;
+	
+}
+
+.breadcrumb li+li:before {
+    color: $font-color;
+    content: "/\00a0";
+}
